@@ -4,6 +4,10 @@
 /* header 
 --------------------*/
 
+header {
+  background: #eee;
+}
+
 header img {
   width: 128px;
   height: 128px;
