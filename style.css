@@ -1,5 +1,10 @@
-@charset "utf-8";
 
-body {
-  background-color: pink;
+
+
+/* header 
+--------------------*/
+
+header img {
+  width: 128px;
+  height: 128px;
 }
