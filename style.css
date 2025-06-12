@@ -1,4 +1,7 @@
 
+html {
+  box-sizing: border-box;
+}
 
 body,h1,h2,h3,p {
   margin: 0;
@@ -59,4 +62,31 @@ main section h3 {
 main section p {
   margin-top: 16px;
   line-height: 1.8;
+}
+
+/* footer
+-------------------- */
+
+footer {
+  padding: 64px 0;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+small {
+  color: #aaa;
+  font-size: 14px;
+}
+
+address {
+  margin-top: 16px;
+}
+
+address a:hover {
+  opacity: 0.7;
+}
+
+address img {
+  width: 24px;
+  height: 24px;
 }
