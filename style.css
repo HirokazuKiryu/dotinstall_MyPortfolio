@@ -4,10 +4,6 @@ body,h1,h2,h3,p {
   margin: 0;
 }
 
-img {
-  object-fit: cover;
-  object-position: center;
-}
 
 /* header 
 --------------------*/
@@ -23,7 +19,6 @@ header img {
   border-radius: 50%;
   width: 128px;
   height: 128px;
-  object-position: top;
 }
 
 header h1 {
@@ -36,20 +31,20 @@ header h1 {
 -------------------- */
 
 main {
-  text-align: center;
+  /* text-align: center; */
 }
 
 main h2 {
   margin: 64px 0;
   font-weight: normal;
   font-size: 24px;
+  text-align: center;
 }
 
 main section {
   margin: 0 auto;
   padding-bottom: 64px;
   width: 400px;
-  border: 3px solid red;
 }
 
 main section img {
@@ -61,10 +56,10 @@ main section h3 {
   margin-top: 16px;
   font-weight: normal;
   font-size: 20px;
-  text-align: left;
+  /* text-align: left; */
 }
 
 main section p {
   margin-top: 16px;
-  text-align: left;
+  /* text-align: left; */
 }
